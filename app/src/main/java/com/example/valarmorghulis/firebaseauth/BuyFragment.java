@@ -278,12 +278,12 @@ public class BuyFragment extends Fragment {
 
     private void sendEmailToSeller() {
         String email = sEmail;
-        String subject = "[Juggler] Request for product " + pName;
+        String subject = "[SwitchMarket] Request for product " + pName;
 
         String msg = "unknown-user";
         if (bName != "")
             msg = bName;
-        String thankMsg = "\n\nThank you for using Juggler :)";
+        String thankMsg = "\n\nThank you for using SwitchMarket :)";
         String autoMsg = "\n\nThis is an auto generated email. Please do not reply to this email.";
 
         String message = "Hey " + sName + ". " + msg + " is requesting for your product \"" + pName + "\". Wait for further response from " + msg + ". If you want you can write to " + msg + " on email id " + bEmail + " ." + thankMsg + autoMsg;
@@ -293,8 +293,8 @@ public class BuyFragment extends Fragment {
 
     private void sendEmailToBuyer() {
         String email = bEmail;
-        String subject = "[Juggler] Request Successful for " + pName;
-        String thankMsg = "\n\nThank you for using Juggler :)";
+        String subject = "[SwitchMarket] Request Successful for " + pName;
+        String thankMsg = "\n\nThank you for using SwitchMarket :)";
         String autoMsg = "\n\nThis is an auto generated email. Please do not reply to this email.";
 
         String message = "Hello " + bName + ". You have requested " + sName  +" for \"" + pName + "\". You can send message to " + sName + " in the app by clicking on message button." + thankMsg + autoMsg ;
