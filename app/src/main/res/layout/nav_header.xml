@@ -19,6 +19,6 @@
         android:layout_height="wrap_content"
         android:paddingLeft="15dp"
         android:paddingTop="8dp"
-        android:text="@string/juggler"/>
+        android:text="@string/SwitchMarket"/>
 
 </LinearLayout>
