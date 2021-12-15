@@ -52,13 +52,13 @@
             android:text="@string/k"
             android:textSize="20dp" />
 
-        <ImageView
-            android:id="@+id/akshat_image"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_below="@+id/team"
-            android:layout_marginStart="45dp"
-            android:layout_toEndOf="@+id/akshat_text"
-            android:background="@drawable/p2" />
+<!--        <ImageView-->
+<!--            android:id="@+id/akshat_image"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:layout_below="@+id/team"-->
+<!--            android:layout_marginStart="45dp"-->
+<!--            //android:layout_toEndOf="@+id/akshat_text"-->
+<!--            android:background="@drawable/p2" />-->
     </RelativeLayout>
 </ScrollView>

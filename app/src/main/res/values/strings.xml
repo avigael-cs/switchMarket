@@ -21,7 +21,7 @@
     <string name="our_team">Our Team</string>
     <string name="a">"Name    :    Elad Vaknin \n"</string>
     <string name="c">"Name    :    Afik Peretz \n"</string>
-    <string name="k">"Name    :    Avigael Abitbol \n"</string>
+    <string name="k">"Name    :    Avigael Abitbol \nName    :    Afik Peretz \nName    :    Elad Vaknin \n"</string>
     <string name="forgot_pass">Forgot password? Reset</string>
     <string name="go_back">Go Back</string>
     <string name="reset_pass">Reset Password</string>
