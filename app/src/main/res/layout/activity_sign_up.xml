@@ -7,26 +7,26 @@
     android:orientation="vertical"
     tools:context=".SignUpActivity">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1">
-
-        <ImageView
-            android:layout_width="85dp"
-            android:layout_height="100dp"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:background="@drawable/applogo" />
-
-    </RelativeLayout>
-
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:background="@color/colorPrimary">
+        android:background="@color/blackish_blue">
+
+        <ImageView
+            android:layout_width="223dp"
+            android:layout_height="220dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/applogo" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/blackish_blue">
 
         <LinearLayout
             android:layout_width="match_parent"
